@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">廖志彰中醫師照片預留位置</title>
+  <desc id="desc">精品診所感的醫師照片預留圖，可替換為正式照片。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eef4ee"/>
+      <stop offset="52%" stop-color="#d8e6df"/>
+      <stop offset="100%" stop-color="#c3d4d4"/>
+    </linearGradient>
+    <linearGradient id="coat" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8ece8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <path d="M120 875c78-190 196-285 354-285s274 95 348 285v225H120V875z" fill="url(#coat)"/>
+  <path d="M326 612l116 186 126-186 70 40-64 448H324l-68-448 70-40z" fill="#f8faf8"/>
+  <path d="M356 668l86 130 86-130" fill="none" stroke="#b7c7c0" stroke-width="15" stroke-linecap="round"/>
+  <circle cx="450" cy="398" r="158" fill="#d8b99d"/>
+  <path d="M282 373c13-132 88-205 190-205 95 0 165 64 177 170-57-21-113-59-166-112-42 58-108 105-201 147z" fill="#33403c"/>
+  <path d="M332 470c38 62 79 92 123 92 42 0 80-29 113-87" fill="none" stroke="#815f4f" stroke-width="12" stroke-linecap="round"/>
+  <text x="450" y="950" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="44" fill="#46544f" font-weight="700">廖志彰中醫師</text>
+  <text x="450" y="1006" text-anchor="middle" font-family="'Noto Sans TC', Arial, sans-serif" font-size="25" fill="#66756f">正式照片預留位置</text>
+</svg>

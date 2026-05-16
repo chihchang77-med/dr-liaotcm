@@ -12,6 +12,5 @@
 
 ## 上線前建議調整
 
-1. 將 `https://example.com/` 全部替換成正式網域。
-2. 若門診時間有固定表格，請更新 `appointment.html`。
-3. 上線後到 Google Search Console 提交 sitemap。
+1. 若門診時間有固定表格，請更新 `appointment.html`。
+2. 上線後到 Google Search Console 提交 sitemap。

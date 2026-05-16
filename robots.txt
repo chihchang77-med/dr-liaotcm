@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://chihchang77-med.github.io/dr-liaotcm/sitemap.xml

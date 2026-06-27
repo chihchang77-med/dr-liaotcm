@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /accounting-app/
+Disallow: /inventory-app/
+Disallow: /liangmu-performance-system/
+Disallow: /line-menu/
+Disallow: /Logseq-install/
+Disallow: /firebase-login/
+Disallow: /良沐中醫診所記帳系統/
 
 Sitemap: https://chihchang77-med.github.io/dr-liaotcm/sitemap.xml

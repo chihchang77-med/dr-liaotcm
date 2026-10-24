@@ -55,3 +55,29 @@ if (carousel) {
   showSlide(0);
   start();
 }
+
+document.querySelectorAll("[data-bmi-calculator]").forEach((calculator) => {
+  const heightInput = calculator.querySelector("[data-bmi-height]");
+  const weightInput = calculator.querySelector("[data-bmi-weight]");
+  const result = calculator.querySelector("[data-bmi-result]");
+
+  const updateBmi = () => {
+    const heightCm = Number(heightInput?.value);
+    const weightKg = Number(weightInput?.value);
+    if (!heightCm || !weightKg || heightCm <= 0 || weightKg <= 0) {
+      result.textContent = "填入兩個數字後顯示 BMI";
+      return;
+    }
+
+    const bmi = weightKg / ((heightCm / 100) ** 2);
+    const category = bmi < 18.5 ? "體重過輕" : bmi < 24 ? "健康體位" : bmi < 27 ? "體重過重" : "肥胖";
+    result.textContent = `你的 BMI 約為 ${bmi.toFixed(1)}（成人標準：${category}）`;
+  };
+
+  heightInput?.addEventListener("input", updateBmi);
+  weightInput?.addEventListener("input", updateBmi);
+});
+
+document.querySelectorAll("[data-print-page]").forEach((button) => {
+  button.addEventListener("click", () => window.print());
+});

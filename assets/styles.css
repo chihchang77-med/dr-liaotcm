@@ -2048,6 +2048,7 @@ a { color: inherit; text-decoration: none; }
   }
 
   .service-grid,
+  .featured-article-grid,
   .check-list,
   .topic-grid,
   .testimonial-grid,
@@ -2106,12 +2107,18 @@ a { color: inherit; text-decoration: none; }
   }
 
   .service-grid,
+  .featured-article-grid,
   .check-list,
   .topic-grid,
   .testimonial-grid,
   .video-grid,
   .mention-grid {
     grid-template-columns: 1fr;
+  }
+
+  .featured-article {
+    min-height: 0;
+    padding: 24px;
   }
 
   .chapter-grid,
